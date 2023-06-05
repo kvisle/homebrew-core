@@ -89,6 +89,11 @@ class Openstackclient < Formula
     sha256 "1d0be0cef90505c9f24e9f00aedab8dce9356d28a4153d5660ab13eeb6a0cfd4"
   end
 
+  resource "gnureadline" do
+    url "https://files.pythonhosted.org/packages/f2/e8/48c0162a732522c7b4568da35ed07d0db07d725f640676b4c9a8ec874d1a/gnureadline-8.1.2.tar.gz"
+    sha256 "4262a6aa356ab22ef642f43a7f94eb42a72d6f0c532edb4e8c6b933f573056d2"
+  end
+
   resource "idna" do
     url "https://files.pythonhosted.org/packages/8b/e1/43beb3d38dba6cb420cefa297822eac205a277ab43e5ba5d5c46faf96438/idna-3.4.tar.gz"
     sha256 "814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"
